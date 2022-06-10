@@ -9,24 +9,15 @@ Yo!Coach is a ready-made software to create a tutoring and consultation platform
 Yo!Coach powered online tutoring or consulting platforms incorporate a full-blown marketing module instrumental in gaining wider reach and business promotion.
 
 ## Features
-- Users Management
-- 1 to 1 Lessons
-- Lessons Subscriptions
-- Group Classes
-- Class PAckages
-- Sales Reports
-- CMS Management
-- Order Management
-- General Settings
-- Commission Management
-- PWA Support
-- YoCoach Wallet
-- Multilingual/Multicurrency
-- Review/Ratings
-- Giftcards/Coupons
-- Multiple Payment Methods
-- SEO-Friendly
 
+|   Users Management |   1 to 1 Lessons |  Lessons Subscriptions |
+| ------------ | ------------ | ------------ |
+|   Users Management |   1 to 1 Lessons |  Lessons Subscriptions |
+|   Group Classes | Class Packages  |  Sales Reports |
+|CMS Management|Order Management|General Settings|
+|Commission Management|PWA Support|YoCoach Wallet|
+|Multilingual | Multicurrency|  Review/Ratings|
+| Giftcards/Coupons|Multiple Payment Methods|SEO-Friendly|
 
 ## System Requirements
 
