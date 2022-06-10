@@ -29,7 +29,7 @@ Yo!Coach powered online tutoring or consulting platforms incorporate a full-blow
 
 ## System Requirements
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The following technical requirements are needed to set up Yo!Coach:
 
 | SrNo | Software | Version | Help|
 | ------------ | ------------ | ------------ | ------------ |
@@ -44,6 +44,10 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
           i. Safe_mode off
           ii. Memory_limit 32M or more (Some pages with advanced feature may need upto 128M)
 
+## Setup on AWS
+
+Yo!Coach can be set up with t2.medium, however, will require upgradation once the number of users begin to increase. Our general recommendation is t2.large instance type.
+The configuration of various EC2 instances can be viewed at [AWS Instance Types](https://aws.amazon.com/ec2/instance-types/)
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
