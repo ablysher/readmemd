@@ -27,6 +27,7 @@ Yo!Coach powered online tutoring or consulting platforms incorporate a full-blow
 - Multiple Payment Methods
 - SEO-Friendly
 
+
 ## System Requirements
 
 The following technical requirements are needed to set up Yo!Coach:
