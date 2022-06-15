@@ -9,19 +9,27 @@ Yo!Coach is a ready-made software to create a tutoring and consultation platform
 Yo!Coach powered online tutoring or consulting platforms incorporate a full-blown marketing module instrumental in gaining wider reach and business promotion.
 
 ## Features
-
-|   Users Management |   1 to 1 Lessons |  Lessons Subscriptions |
-| ------------ | ------------ | ------------ |
-|   Users Management |   1 to 1 Lessons |  Lessons Subscriptions |
-|   Group Classes | Class Packages  |  Sales Reports |
-|CMS Management|Order Management|General Settings|
-|Commission Management|PWA Support|YoCoach Wallet|
-|Multilingual | Multicurrency|  Review/Ratings|
-| Giftcards/Coupons|Multiple Payment Methods|SEO-Friendly|
+- Users Management
+- 1 to 1 Lessons
+- Lessons Subscriptions
+- Group Classes
+- Class PAckages
+- Sales Reports
+- CMS Management
+- Order Management
+- General Settings
+- Commission Management
+- PWA Support
+- YoCoach Wallet
+- Multilingual/Multicurrency
+- Review/Ratings
+- Giftcards/Coupons
+- Multiple Payment Methods
+- SEO-Friendly
 
 ## System Requirements
 
-The following technical requirements are needed to set up Yo!Coach:
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
 | SrNo | Software | Version | Help|
 | ------------ | ------------ | ------------ | ------------ |
@@ -36,15 +44,12 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
           i. Safe_mode off
           ii. Memory_limit 32M or more (Some pages with advanced feature may need upto 128M)
 
-## Setup on AWS 
-
-Yo!Coach can be set up with t2.medium, however, will require upgradation once the number of users begin to increase. Our general recommendation is t2.large instance type.
-The configuration of various EC2 instances can be viewed at [AWS Instance Types](https://aws.amazon.com/ec2/instance-types/)
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-[More Info Here](https://www.fatbit.com/faqs/content-7/what-are-the-technical-specifications-required-to-set-up-yocoach-427.html)
+## Laravel Sponsors
 
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
 ### Clients Feedback
 
@@ -54,10 +59,18 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 - **[Online Lessons](https://www.onlinelessons.ie/)**
 - **[Ace My App](https://https://acemyapp.com//)**
 
-## Installation Guide
+## Contributing
 
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
-Copyright © 2022 Yo!Coach Developed by [FATbit Technologies](https://www.fatbit.com/).
-
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
