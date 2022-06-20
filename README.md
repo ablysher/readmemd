@@ -64,6 +64,7 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 1. **Clone YoCoachV3**
 
     Install git and clone Clone YoCoachV3 to your root directory.
+
 		sudo apt install git
 		git --version
 		cd ./path/to/your/rootdir
@@ -72,29 +73,34 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 2. **Copy required files**
 
     Copy `conf` `user-uploads` `public` `mbs-errors.log` and everything from `git-ignored-files` to root directory.
+
 		cp -r git-ignored-files/* .
 
 3. **Install Fatbit Library**
 
     Download and install Fatbit library and unzip to library directory and then remove `core-10.0.zip`.
+
 		wget http://fatlib.4livedemo.com/library/v2.2/core-10.0.zip
 		unzip core-10.0.zip -d library
 		rm core-10.0.zip
 
 4. **Install Dependencies**
 
-    Never user composer update, It may break your application. It will update versions of packages to be installed and may not be compatible with your system.
+    Never use composer update, It may break your application. It will update versions of packages to be installed and may not be compatible with your system.
+
 		composer install
 
 5. **Import Database**
 
     We have `sample.sql` and `empty.sql` database in `database` directory. Database can be imported as per requirement.
+
 		mysql -u mysqlUsername -p mysqlDatabase < database/sample.sql
 		mysqlPassword
 
 6. **Connect Database**
 
     Configure MySQL database connection settings in `public/settings.php`
+
 		nano public/settings.php
 		<?php
 		define('CONF_WEBROOT_FRONTEND', '/');
@@ -117,7 +123,8 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 8. **Upload License**
 
 		nano license.txt
-Paste license key and Save and Exit (Ctrl+x and Shift+y)
+
+    Paste license key and Save and Exit (Ctrl+x and Shift+y)
 
 10. **Setup Cron Job**
 
