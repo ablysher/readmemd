@@ -57,8 +57,8 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 - **Version 3.0**: YoCoach V3’s software architecture is re-designed to handle and manage high user data, While taking care of quality code and system performance
 - **Version 2.4**: Theme management for Website and Email Templates.
 - **Version 2.3**: Added new features Multiple Price Slab & GDPR - Right to Erasure.
-- **Version 2.2**: 
-- **Version 2.1**: 
+- **Version 2.2**: Payment Gateways(Paystack,PayGate), Progressive Web Apps (PWA), Session Duration Management. New Theme and User dashbords
+- **Version 2.1**: Added new features Zoom, Lessonspace, Google Analytics and PayPal Payouts
 
 ## Contributing
 
