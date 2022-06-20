@@ -54,6 +54,12 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 ## History
 
+- **Version 3.0**: YoCoach V3’s software architecture is re-designed to handle and manage high user data, While taking care of quality code and system performance
+- **Version 2.4**: Theme management for Website and Email Templates.
+- **Version 2.3**: Added new features Multiple Price Slab & GDPR - Right to Erasure.
+- **Version 2.2**: 
+- **Version 2.1**: 
+
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
