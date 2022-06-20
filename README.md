@@ -37,7 +37,7 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 | 1 | Ubuntu x86, x86-64 | 20.04+  | [Ubuntu](https://ubuntu.com/)  |
 | 2 | Web Servers | Apache 2.4.x | [Apache](https://httpd.apache.org/)  | 
 | 3 | PHP Version | 7.4.x |  [PHP](https://www.php.net/) | 
-| 4 | MySQL Version | 8.0+ | [MySQL](https://www.mysql.com/)  | 
+| 4 | MySQL Version | 8.0.x | [MySQL](https://www.mysql.com/)  | 
 
 ## Required PHP Extentions
 
