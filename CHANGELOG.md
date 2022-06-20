@@ -11,9 +11,6 @@ Updates:
         #93036 - Demo Set up for Marketing team
         #94505 - Client Feedback Finalized Points
         #94862 - Attachments in Messages
-        #94961 - Unread Message Notifications
-        #95064 - Website and Email Theme Management
-        #91988 - Merge API for Mobile app
 
 Fixes:
 
@@ -34,15 +31,39 @@ Fixes:
         #062651 - Fixed blog post duplicate
         #062810 - Update teach lang search
         #063190 - Report issue payment
+
+### Release Number: RV-2.3.0
+### Release Date: 2022-03-15
+
+Updates:
+
+        #94961 - Unread Message Notifications
+        #95064 - Website and Email Theme Management
+        #91988 - Merge API for Mobile app
+
+Fixes:
+
         #063120 - send email to admin when apply to teach
         #063093 - Get Timezone from client browser
         #063107 - Image manageable from admin
         #062810 - Make teach language search
         #063139 - Admin:Theme management: theme activated message is not correct.
-        #063109 - Message Contact: file uploaded not coming at teacher/learner in messaging section. for initial conversation
-        #063108 - Message section: No file 'size' to upload and 'extensions' given in message section when learner tries to contact teacher for first time.
+        #063109 - Message Contact: file uploaded not coming at teacher/learner 
+        #063108 - Message section: No file 'size' to upload and 'extensions'
         #063138 - Admin: group classes : filter issue
         #063137 - Teacher registration : Resume:Invalid file extension
+
+### Release Number: RV-2.2.0
+### Release Date: 2022-01-20
+
+Updates:
+
+        #94961 - Unread Message Notifications
+        #95064 - Website and Email Theme Management
+        #91988 - Merge API for Mobile app
+
+Fixes:
+
         #063128 - Message section: No 'validation message' when file is uploaded above limit defined
         #063136 - File extension mention in message section is not mentioned in other upload areas. 
         #063294 - Meeting tool : link used no longer valid after reset and unschedule from admin 
