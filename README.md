@@ -47,18 +47,18 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Documentation & Updates
-
-[Recent Updates](https://www.yo-coach.com/recent-updates.html) Recent Versions and Updates 
-[Documentation](https://www.yo-coach.com/documentation.html) Find All The Resources At One Place To Help You Setup Your Online Tutoring & Consultation Platform Successfully.
-
-## History
+## Version History
 
 - **Version 3.0**: YoCoach V3’s software architecture is re-designed to handle and manage high user data, While taking care of quality code and system performance
 - **Version 2.4**: Theme management for Website and Email Templates.
 - **Version 2.3**: Added new features Multiple Price Slab & GDPR - Right to Erasure.
 - **Version 2.2**: Payment Gateways(Paystack,PayGate), Progressive Web Apps (PWA), Session Duration Management. New Theme and User dashbords
 - **Version 2.1**: Added new features Zoom, Lessonspace, Google Analytics and PayPal Payouts
+
+## Documentation & Updates
+
+[Recent Updates](https://www.yo-coach.com/recent-updates.html) Recent Versions and Updates 
+[Documentation](https://www.yo-coach.com/documentation.html) Find All The Resources At One Place To Help You Setup Your Online Tutoring & Consultation Platform Successfully.
 
 ## Contributing
 
