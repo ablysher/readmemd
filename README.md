@@ -30,7 +30,7 @@ YoCoach V3’s software architecture is re-designed to handle and manage high us
 
 ## System Requirements
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The following technical requirements are needed to set up Yo!Coach:
 
 | SrNo | Software | Version | Help|
 | ------------ | ------------ | ------------ | ------------ |
@@ -42,10 +42,9 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 ## Required PHP Extentions
 
 GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enabled, Iconv function should be enabled, Fileinfo function should be enabled, Ioncube Loader
-          i. Safe_mode off
-          ii. Memory_limit 32M or more (Some pages with advanced feature may need upto 128M)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- i. Safe_mode off
+- ii. Memory_limit 64M or more (Some pages with advanced feature may need upto 128M)
 
 ## Version History
 
@@ -60,7 +59,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 [Recent Updates](https://www.yo-coach.com/recent-updates.html) Recent Versions and Updates 
 [Documentation](https://www.yo-coach.com/documentation.html) Find All The Resources At One Place To Help You Setup Your Online Tutoring & Consultation Platform Successfully.
 
-## Contributing
+## Installation Instructions
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
