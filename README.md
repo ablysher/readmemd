@@ -1,6 +1,6 @@
 <p align="center"><a href="https://v3.yo-coach.com/" target="_blank"><img src="https://v3.yo-coach.com/images/yocoach-logo.svg" width="400"></a></p>
 
-<p align="center">**Version RV-3.0.0**</p>
+**<p align="center">Version RV-3.0.0</p>**
 
 ## About YoCoach
 
@@ -8,7 +8,8 @@ Yo!Coach is a ready-made software to create a tutoring and consultation platform
 
 Yo!Coach powered online tutoring or consulting platforms incorporate a full-blown marketing module instrumental in gaining wider reach and business promotion.
 
-##YoCoach V2 to V3
+## YoCoach V2 to V3
+
 YoCoach V3’s software architecture is re-designed to handle and manage high user data, While taking care of quality code and system performance. Data independent code architecture is key to YoCoach V3 performance.
 
 ## Features
