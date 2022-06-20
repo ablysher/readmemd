@@ -61,7 +61,14 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 
 ## Installation Instructions
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+1. **Clone YoCoachV3**
+		cd ./your/path/to/root
+		git clone git@github.com:AblySoft268/YoCoachV3.git .
+
+2. sd
+3. f
+4. sd
+
 
 ## Code of Conduct
 
