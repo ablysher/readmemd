@@ -62,8 +62,8 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 ## Installation Instructions
 
 1. **Clone YoCoachV3**
-		cd ./your/path/to/root
-		git clone git@github.com:AblySoft268/YoCoachV3.git .
+	cd ./your/path/to/root
+	git clone git@github.com:AblySoft268/YoCoachV3.git .
 
 2. sd
 3. f
