@@ -8,24 +8,25 @@ Yo!Coach is a ready-made software to create a tutoring and consultation platform
 
 Yo!Coach powered online tutoring or consulting platforms incorporate a full-blown marketing module instrumental in gaining wider reach and business promotion.
 
+##YoCoach V2 to V3
+YoCoach V3’s software architecture is re-designed to handle and manage high user data, While taking care of quality code and system performance. Data independent code architecture is key to YoCoach V3 performance.
+
 ## Features
-- Users Management
-- 1 to 1 Lessons
-- Lessons Subscriptions
-- Group Classes
-- Class PAckages
-- Sales Reports
-- CMS Management
-- Order Management
-- General Settings
-- Commission Management
-- PWA Support
-- YoCoach Wallet
-- Multilingual/Multicurrency
-- Review/Ratings
-- Giftcards/Coupons
-- Multiple Payment Methods
-- SEO-Friendly
+- **Teachers Availability:** We have two availability types: General Availability and Weekly Availability. Managing tutors availability for user specific timezone and conversion to convert system date according to user’s timezone was a challenging task for 70+ countries supporting DST(Daylight Saving Time). Completely redesigned the database structure, and have also added another table to maintain exact availability of the user(which Convert general to weekly availability) which inturn solved the time difference we face in countries with DST enabled.
+- **Teacher & Group Class Search:** A major update on performance optimization to Teacher Search and Group Classes Search has been performed by optimizing database structure & queries and has created search models for teacher and class search by extending Yo!Coach base search model.  Redone complete Search form design to improve UX/UI.
+- **Seamless Checkout:** Checkout is now on a single popup which is used for different order types. One step checkout has been used for booking Group class, Group Class package, Adding Money to Wallet and Purchasing Gift Cards.
+- Inline & Unlimited Scheduling: Till YoCoach V2.4 We only had single session scheduling after booking. Now Learners can check Tutor’s exact availability and schedule unlimited sessions before booking a Tutor or making any payment.
+- **Payment Gateways:** Redefined structure of payment gateways. Now Payment gateways are considered as separate entities which can be attached and detached as a plugin. Bank Transfer(Offline) added as a new payment gateway. We have an option to provide only required payment gateway to clients.
+- **Meeting Tools:** Same as Payment Gateways we redeveloped Meeting Tools in V3. Any Meeting tool can be added/removed as per client’s requirements. Integrated meeting tools are Zoom Meetings, Lesson Space and AtomChat/CometChat.
+- Fully Manageable Search Engines friendly URLs: URL rewriting allows URLs to be more easily remembered by the user. Option to replace the complete url path with any other desired url is possible now. Ability to add different custom URLs for different languages.
+- **User Transactions:** Categorized user's Transactions for each type of order payment, Student Refund, Teacher Paid, Money Withdrawn, Money Deposit, Gift Card redeemed, Support credit and Support debit. Ability to calculate Total IN and OUT of a user’s money in the platform. We can have every type of report for every type of user.
+- **Reports Sales & Settlements:** Database structure has been changed completely for the orders section and V3 has the ability to provide any type of reports. As of now we have Lessons Top Languages, Classes Top Languages, Teacher Performance, Lesson Stats,  Sales Report and  Settlements Report. Admin can check everyday’s Gross Sale, Discount, Net Sale, Paid to Teacher and Refunded to Students.
+- **Group Classes:** Group Classes are now treated as separate entities, It may be a pre scheduled event by the Teacher and any Learner/Student can book and join it. Earlier it was mixed with one to one lesson/session and calculation of Teacher payment on success and refund to student was complex.
+- **Manageable Themes:** Theme management is available with six basic colors Primary Color & Inverse Color,  Secondary Color & Inverse Color And Footer Color & Inverse Color.
+- **Email Templates:** Updated all Email templates with new HTML structure. Email save and preview option available now which Admin can use to preview email templates. Header and Footer for all email templates are manageable at a single place.
+- **Manage Orders:** Manage all 6 types of orders and order’s status with all details. Keyword Search for Main and all other order types. More detail has been added in the orders table which makes reporting more efficient. Order Id, User Name, Order Type, Items, Total, Discount, Net Total, Payment, Status, Pay Method, Datetime
+- **Learner & Teacher Dashboard:** Seperate dashboard for Learners & Teachers. New Base Search model has been created to list Lessons, Subscriptions, Group classes, Order classes, Package classes, Gift Cards, All Orders and Report Issues.Note: Base Search model is well structured and designed to make searches for bulk data.
+
 
 ## System Requirements
 
@@ -38,26 +39,20 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 | 3 | PHP Version | 7.4.x |  [PHP](https://www.php.net/) | 
 | 4 | MySQL Version | 8.0+ | [MySQL](https://www.mysql.com/)  | 
 
-### Required PHP Extentions
+## Required PHP Extentions
 
 GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enabled, Iconv function should be enabled, Fileinfo function should be enabled, Ioncube Loader
           i. Safe_mode off
           ii. Memory_limit 32M or more (Some pages with advanced feature may need upto 128M)
 
-
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+## Documentation & Updates
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+[Recent Updates](https://www.yo-coach.com/recent-updates.html) Recent Versions and Updates 
+[Documentation](https://www.yo-coach.com/documentation.html) Find All The Resources At One Place To Help You Setup Your Online Tutoring & Consultation Platform Successfully.
 
-### Clients Feedback
-
-- **[Z'era Labs](https://www.zeralabs.com.my/)**
-- **[Adrosline](https://www.adrosonline.com/)**
-- **[Instrumently](https://instrumently.co/)**
-- **[Online Lessons](https://www.onlinelessons.ie/)**
-- **[Ace My App](https://https://acemyapp.com//)**
+## History
 
 ## Contributing
 
@@ -74,149 +69,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-
-
-# Welcome to StackEdit!
-
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
-
-
-# Files
-
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
-
-## Create files and folders
-
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
-
-## Switch to another file
-
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
-
-## Rename a file
-
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
-
-## Delete a file
-
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
-
-## Export a file
-
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
-
-
-# Synchronization
-
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
-
-There are two types of synchronization and they can complement each other:
-
-- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
-	> To start syncing your workspace, just sign in with Google in the menu.
-
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
-
-## Open a file
-
-You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
-
-## Save a file
-
-You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
-
-## Synchronize a file
-
-Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
-
-If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
-
-> **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
-
-## Manage file synchronization
-
-Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking **File synchronization** in the **Synchronize** sub-menu. This allows you to list and remove synchronized locations that are linked to your file.
-
-
-# Publication
-
-Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **WordPress** and **Zendesk**. With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
-
-> Before starting to publish, you must link an account in the **Publish** sub-menu.
-
-## Publish a File
-
-You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
-
-- Markdown: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
-- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
-
-## Update a publication
-
-After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the **Publish now** button in the navigation bar.
-
-> **Note:** The **Publish now** button is disabled if your file has not been published yet.
-
-## Manage file publication
-
-Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
-
-
-# Markdown extensions
-
-StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
-
-> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
-
-
-## SmartyPants
-
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
-
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
-
-## KaTeX
-
-You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
-
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
-
-> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
-
-
-## UML diagrams
-
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
-
-And this will produce a flow chart:
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
