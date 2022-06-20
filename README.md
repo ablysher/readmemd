@@ -66,9 +66,14 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 		cd ./path/to/your/root/dir
 		git clone git@github.com:AblySoft268/YoCoachV3.git .
 
-4. sd
-5. f
-6. sd
+2. **Copy git ignored files**
+3. **Install Fatbit Library**
+
+		wget http://fatlib.4livedemo.com/library/v2.2/core-10.0.zip
+		unzip core-10.0.zip -d library
+
+4. **Clone YoCoachV3**
+5. **Clone YoCoachV3**
 
 
 ## Code of Conduct
