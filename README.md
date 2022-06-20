@@ -72,11 +72,53 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 		wget http://fatlib.4livedemo.com/library/v2.2/core-10.0.zip
 		unzip core-10.0.zip -d library
 
-4. **Clone YoCoachV3**
-5. **Clone YoCoachV3**
+4. **Import Database**
 
+		mysql -u mysqlUsername -p mysqlDatabase < database/sample.sql
+		mysqlPassword
 
-## Code of Conduct
+5. **Connect Database**
+Setup mysql database connection keys
+		nano public/settings.php
+		<?php
+		define('CONF_WEBROOT_FRONTEND', '/');
+		define('CONF_WEBROOT_DASHBOARD', '/dashboard/');
+		define('CONF_WEBROOT_BACKEND', '/admin/');
+		define('CONF_DB_SERVER', 'localhost');
+		define('CONF_DB_USER', 'mysqlUsername');
+		define('CONF_DB_PASS', 'mysqlPassword');
+		define('CONF_DB_NAME', 'mysqlDatabase');
+Save and Exit (Ctrl+x and Shift+y)
+
+6. **Install Dependencies**
+
+		composer install
+**Note:** Never user composer update, It may break your application. It will update versions of packages to be installed and may not be compatible with your system.
+
+7. **Grant Permissions**
+
+		chmod -R 777 user-uploads
+		chmod -R 777 public/cache
+		chmod 777 mbs-errors.log
+		chmod 777 public/robots.txt
+
+8. **Upload License**
+
+		nano license.txt
+Paste license key and Save and Exit (Ctrl+x and Shift+y)
+
+9. **Remove Extra Files**
+
+		rm core-10.0.zip
+		rm database.sql
+		rm user-uploads.zip
+		rm configurations.zip
+
+10. **Create Procedure**
+
+		crontab -e
+
+11. **Remove Extra Files**
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
