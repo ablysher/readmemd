@@ -61,6 +61,12 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 
 ## Installation Instructions
 
+1. **Prerequisite**
+
+	- You are able to aceess the server using **SSH**.
+	- You have installed **Apache**, **MySql** and **PHP** on linux server.
+	- You have installed ioncube loader compatible to **Fatbit library v2.2**
+
 1. **Clone YoCoachV3**
 
     Install git and clone Clone YoCoachV3 to your root directory.
@@ -137,7 +143,7 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 
 11. **Custom Configuration**
 
-    Update {root}/conf/conf-common.php as per your requirements
+    Update `{root}/conf/conf-common.php` as per your requirements
 
 		define('SEARCH_MAX_COUNT', 10000);
 		define('CONF_DEVELOPMENT_MODE', false);
