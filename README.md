@@ -67,6 +67,9 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 		git clone git@github.com:AblySoft268/YoCoachV3.git .
 
 2. **Copy git ignored files**
+
+    
+
 3. **Install Fatbit Library**
 
 		wget http://fatlib.4livedemo.com/library/v2.2/core-10.0.zip
@@ -78,7 +81,9 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 		mysqlPassword
 
 5. **Connect Database**
-Setup mysql database connection keys
+
+    Setup mysql database connection keys
+
 		nano public/settings.php
 		<?php
 		define('CONF_WEBROOT_FRONTEND', '/');
@@ -88,12 +93,14 @@ Setup mysql database connection keys
 		define('CONF_DB_USER', 'mysqlUsername');
 		define('CONF_DB_PASS', 'mysqlPassword');
 		define('CONF_DB_NAME', 'mysqlDatabase');
-Save and Exit (Ctrl+x and Shift+y)
+
+    Save and Exit (Ctrl+x and Shift+y)
 
 6. **Install Dependencies**
 
 		composer install
-**Note:** Never user composer update, It may break your application. It will update versions of packages to be installed and may not be compatible with your system.
+
+    **Note:** Never user composer update, It may break your application. It will update versions of packages to be installed and may not be compatible with your system.
 
 7. **Grant Permissions**
 
@@ -107,18 +114,33 @@ Save and Exit (Ctrl+x and Shift+y)
 		nano license.txt
 Paste license key and Save and Exit (Ctrl+x and Shift+y)
 
-9. **Remove Extra Files**
+10. **Setup Cron Job**
+
+		crontab -e
+		*/5 * * * * /usr/bin/curl  -s http://{domain-name}/cron > /dev/null 2>&1
+
+    Save and Exit (Ctrl+x and Shift+y)
+    **Note:** The command may vary depending upon the products and their version.
+
+12. **Remove Extra Files**
 
 		rm core-10.0.zip
 		rm database.sql
 		rm user-uploads.zip
 		rm configurations.zip
 
-10. **Create Procedure**
+11. **Create Procedure**
 
-		crontab -e
+    Open url https://yourdomain.com/procedures to create procedures
 
-11. **Remove Extra Files**
+12. **Custom Configuration**
+
+    Update {root}/conf/conf-common.php as per your requirements
+
+		define('SEARCH_MAX_COUNT', 10000);
+		define('CONF_DEVELOPMENT_MODE', false);
+		define('CONF_USE_FAT_CACHE', true);
+		define('ALLOW_EMAILS', true);
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
