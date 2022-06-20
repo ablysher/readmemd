@@ -124,25 +124,18 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 		nano license.txt
     Paste license key and Save and Exit (Ctrl+x and Shift+y)
 
-10. **Setup Cron Job**
+9. **Setup Cron Job**
 
 		crontab -e
-		*/5 * * * * /usr/bin/curl  -s http://{domain-name}/cron > /dev/null 2>&1
+		*/5 * * * * /usr/bin/curl  -s http://yourdomain.com/cron > /dev/null 2>&1
     Save and Exit (Ctrl+x and Shift+y)
     **Note:** The command may vary depending upon the products and their version.
 
-12. **Remove Extra Files**
-
-		rm core-10.0.zip
-		rm database.sql
-		rm user-uploads.zip
-		rm configurations.zip
-
-11. **Create Procedure**
+10. **Create Procedure**
 
     Open url https://yourdomain.com/procedures to create procedures
 
-12. **Custom Configuration**
+11. **Custom Configuration**
 
     Update {root}/conf/conf-common.php as per your requirements
 
