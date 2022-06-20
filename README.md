@@ -56,8 +56,8 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 
 ## Documentation & Updates
 
-[Recent Updates](https://www.yo-coach.com/recent-updates.html) Recent Versions and Updates.
-[Documentation](https://www.yo-coach.com/documentation.html) Find All The Resources At One Place To Help You Setup Your Online Tutoring & Consultation Platform Successfully.
+- [Recent Updates](https://www.yo-coach.com/recent-updates.html) Recent Versions and Updates.
+- [Documentation](https://www.yo-coach.com/documentation.html) Find All The Resources At One Place To Help You Setup Your Online Tutoring & Consultation Platform Successfully.
 
 ## Installation Instructions
 
