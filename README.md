@@ -110,7 +110,6 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 		define('CONF_DB_USER', 'mysqlUsername');
 		define('CONF_DB_PASS', 'mysqlPassword');
 		define('CONF_DB_NAME', 'mysqlDatabase');
-
     Save and Exit (Ctrl+x and Shift+y)
 
 7. **Grant Permissions**
@@ -123,14 +122,12 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 8. **Upload License**
 
 		nano license.txt
-
     Paste license key and Save and Exit (Ctrl+x and Shift+y)
 
 10. **Setup Cron Job**
 
 		crontab -e
 		*/5 * * * * /usr/bin/curl  -s http://{domain-name}/cron > /dev/null 2>&1
-
     Save and Exit (Ctrl+x and Shift+y)
     **Note:** The command may vary depending upon the products and their version.
 
