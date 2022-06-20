@@ -66,21 +66,27 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 		cd ./path/to/your/root/dir
 		git clone git@github.com:AblySoft268/YoCoachV3.git .
 
-2. **Copy git ignored files**
+2. **Copy ignored files**
 
-    
+		cp -r git-ignored-files/* .
 
 3. **Install Fatbit Library**
 
 		wget http://fatlib.4livedemo.com/library/v2.2/core-10.0.zip
 		unzip core-10.0.zip -d library
 
-4. **Import Database**
+4. **Install Dependencies**
+
+		composer install
+
+    **Note:** Never user composer update, It may break your application. It will update versions of packages to be installed and may not be compatible with your system.
+
+5. **Import Database**
 
 		mysql -u mysqlUsername -p mysqlDatabase < database/sample.sql
 		mysqlPassword
 
-5. **Connect Database**
+6. **Connect Database**
 
     Setup mysql database connection keys
 
@@ -95,12 +101,6 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 		define('CONF_DB_NAME', 'mysqlDatabase');
 
     Save and Exit (Ctrl+x and Shift+y)
-
-6. **Install Dependencies**
-
-		composer install
-
-    **Note:** Never user composer update, It may break your application. It will update versions of packages to be installed and may not be compatible with your system.
 
 7. **Grant Permissions**
 
