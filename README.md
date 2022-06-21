@@ -76,6 +76,8 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 		git --version
 		cd ./path/to/your/rootdir
 		git clone git@github.com:AblySoft268/YoCoachV3.git .
+		
+    **Note:** OR if you have script files, Upload script files to the root directory and continue.
 
 2. **Copy required-conf files**
 
@@ -109,6 +111,7 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
     Configure MySQL database connection settings in `public/settings.php`
 
 		nano public/settings.php
+    `settings.php` file will look like below
 
 		<?php
 		define('CONF_WEBROOT_FRONTEND', '/');
