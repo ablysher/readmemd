@@ -77,11 +77,11 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 		cd ./path/to/your/rootdir
 		git clone git@github.com:AblySoft268/YoCoachV3.git .
 
-2. **Copy required files**
+2. **Copy required-conf files**
 
-    Copy `conf` `user-uploads` `public` `mbs-errors.log` and everything from `git-ignored-files` to root directory.
+    Copy `conf` `user-uploads` `public` `mbs-errors.log` and everything from `required-conf` to root directory.
 
-		cp -r git-ignored-files/* .
+		cp -r required-conf/* .
 
 3. **Install Fatbit Library**
 
@@ -109,6 +109,7 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
     Configure MySQL database connection settings in `public/settings.php`
 
 		nano public/settings.php
+
 		<?php
 		define('CONF_WEBROOT_FRONTEND', '/');
 		define('CONF_WEBROOT_DASHBOARD', '/dashboard/');
@@ -134,13 +135,13 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 9. **Setup Cron Job**
 
 		crontab -e
-		*/5 * * * * /usr/bin/curl  -s http://yourdomain.com/cron > /dev/null 2>&1
+		*/2 * * * * /usr/bin/curl  -s https://yourdomain.com/cron > /dev/null 2>&1
     Save and Exit (Ctrl+x and Shift+y)
     **Note:** The command may vary depending upon the products and their version.
 
 10. **Create Procedure**
 
-    Open url https://yourdomain.com/procedures to create procedures
+    Login to admin dashboard and Open url https://yourdomain.com/admin/procedures to create procedures
 
 11. **Custom Configuration**
 
