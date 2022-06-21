@@ -79,19 +79,19 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 		
     **Note:** OR if you have script files, Upload script files to the root directory and continue.
 
-2. **Copy required-conf files**
+2. **Copy setup-files files**
 
-    Copy `conf` `user-uploads` `public` `mbs-errors.log` and everything from `required-conf` to root directory.
+    Copy `conf` `user-uploads` `public` `mbs-errors.log` and everything from `setup-files` to root directory.
 
-		cp -r required-conf/* .
+		cp -r setup-files/* .
 
 3. **Install Fatbit Library**
 
     Download and install Fatbit library and unzip to library directory and then remove `core-10.0.zip`.
 
-		wget http://fatlib.4livedemo.com/library/v2.2/core-10.0.zip
-		unzip core-10.0.zip -d library
-		rm core-10.0.zip
+		wget http://fatlib.4livedemo.com/download/v2.3/core.zip
+		unzip core.zip -d library
+		rm core.zip
 
 4. **Install Dependencies**
 
