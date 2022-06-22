@@ -101,7 +101,7 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 
 5. **Import Database**
 
-    We have `sample.sql` and `empty.sql` database in `database` directory. Database can be imported as per requirement.
+    We have `sample.sql` and `blank.sql` database in `database` directory. Database can be imported as per requirement.
 
 		mysql -u mysqlUsername -p mysqlDatabase < database/sample.sql
 		mysqlPassword
