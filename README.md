@@ -66,7 +66,7 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 
 	- You are able to aceess the server using **SSH**.
 	- You have installed **Apache**, **MySql** and **PHP** on linux server.
-	- You have installed ioncube loader compatible to **Fatbit library v2.2**
+	- You have installed ioncube loader compatible to **Fatbit library V2.3**
 
 1. **Clone YoCoachV3**
 
@@ -75,7 +75,7 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 		sudo apt install git
 		git --version
 		cd ./path/to/your/rootdir
-		git clone git@github.com:AblySoft268/YoCoachV3.git .
+		git clone git@github.com:your/repository.git .
 		
     **Note:** OR if you have script files, Upload script files to the root directory and continue.
 
@@ -87,7 +87,7 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 
 3. **Install Fatbit Library**
 
-    Download and install Fatbit library and unzip to library directory and then remove `core-10.0.zip`.
+    Download and install Fatbit library and unzip to library directory and then remove `core.zip`.
 
 		wget http://fatlib.4livedemo.com/download/v2.3/core.zip
 		unzip core.zip -d library
@@ -128,6 +128,7 @@ GD with Free Font support, Zlib with zip support, DOM, Mbstring should be enable
 		chmod -R 777 user-uploads
 		chmod -R 777 public/cache
 		chmod 777 mbs-errors.log
+		chmod 777 public/error_log
 		chmod 777 public/robots.txt
 
 8. **Upload License**
